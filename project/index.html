@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content = "width= device-width, initial-scale=1.0">
+    <title>Web App Project</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div>
+        <form action="index.html" method="get" class="search-bar">
+            <input type="text" placeholder="Search contact">
+            <button type="submit"></button>
+        </form>
+    </div>
+    <table> 
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="fname"> First Name</label><br>
+                        <input type="text" name="Name" id="fname" placeholder="First Name">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" name="Name" id="lname" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <label for="phoneno">Phone Number </label><br>
+                        <input type="number" name="Name" id="phoneno" placeholder="Phone Number">
+                    </div>
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="text" name="Name" id="email" placeholder="Email Address">
+                    </div><br>
+
+                    <div class = "form_action--button" >
+                        <input type="submit" value="SAVE">
+                        <input type="reset" value="CANCEL">
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+        <tr>    
+                <td>
+                    <table class="list" id="storeList">
+                            <tbody>
+                                <tr>
+                                    <th>First Name </th>
+                                    <th>Last Name </th>
+                                    <th>Phone Number </th>
+                                    <th>Email </th>
+                                </tr>
+                            </tbody>
+                    </table>
+                </td>
+        </tr>
+    <script src="script.js"> </script>
+</body>
+</html>

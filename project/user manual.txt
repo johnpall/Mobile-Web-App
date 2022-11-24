@@ -1,0 +1,7 @@
+This mobile-friendly web application enables clients to store contact
+details such as Name(First Name and Last Name), Email Address, and Phone Number.
+It allows contacts to be Created, Read, Updated, Deleted, and Edited.
+It can also search specific contact(which is a method of filtering).
+When deleting a contact from the mobile-friendly web application, there is 
+a prompt that pops up to make sure that the action is confirmed and not a mistake 
+by the user.

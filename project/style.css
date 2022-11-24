@@ -1,0 +1,110 @@
+body{
+background-color: rgb(255, 255, 255);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.search-bar{
+    width:70%;
+    max-width: 500px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 20px;
+
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #cac7fc;
+}
+table{
+width: 100%;
+margin: 100px auto;
+background-color: rgb(117, 117, 117);
+font-style: italic;
+color: white;
+text-align: center;
+}
+
+.list{
+text-align: center;
+width: 10%;
+
+}
+
+td{
+border: none solid rgb(255, 255, 255);
+text-align: center;
+padding: 5px 50px;
+
+}
+
+tr:nth-child(even), table.list thread> tr{
+background-color: rgb(255, 255, 255);
+}
+
+input[type="text"],input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(51, 255, 0);
+    border-radius: 4px;
+
+}
+input[type="submit"],input[type="reset"]{
+    background: rgb(179, 255, 156);
+    width: 100px;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+
+}
+
+input[type="submit"]:hover{
+    background: rgb(127, 189, 247);
+}
+
+input[type="reset"]:hover{
+    background: rgb(0, 127, 247);
+    width: 100px;
+
+}
+
+button{
+    background: rgb(255, 255, 255);
+    width: 30%;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background: rgb(127, 189, 247);
+
+}
+
+    @media screen and (max-width: 600px)
+    {
+        table{
+            width: 85%;
+            margin: 5px auto;
+        }
+    }
